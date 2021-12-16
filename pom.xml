@@ -38,8 +38,10 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <!--本机版本5.1.73-->
+            <version>5.1.6</version>
         </dependency>
-        <!--lombok用来简化实体类-->
+        <!--lombok用来简化实体类 自动生成getter and setter 使用注解和 Lombok插件-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
